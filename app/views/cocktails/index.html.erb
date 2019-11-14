@@ -1,8 +1,10 @@
 <h1>Cocktails index</h1>
 
+<%= image_tag "ti_punch.jpeg", alt: "alttext" %>
+
 <ul>
   <% @cocktails.each do |cocktail| %>
-  <li><h2><%= cocktail.name  %></h2></li>
+  <li><h2><%= cocktail.name  %> <%= link_to 'details', cocktail_path(cocktail) %></h2></li>
   <% end %>
 </ul>
 
