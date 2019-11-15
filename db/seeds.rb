@@ -13,8 +13,8 @@ Ingredient.create(name: "angostura bitters")
 Ingredient.create(name: "lime")
 Ingredient.create(name: "rum")
 
-# Cocktail.create(name: "sex on the beach")
-# Cocktail.create(name: "manhattan")
-# Cocktail.create(name: "cuba libre")
-# Cocktail.create(name: "ti punch")
+Cocktail.create(name: "sex on the beach")
+Cocktail.create(name: "manhattan")
+Cocktail.create(name: "cuba libre")
+Cocktail.create(name: "ti punch")
 
